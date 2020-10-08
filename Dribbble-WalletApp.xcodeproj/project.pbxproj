@@ -15,6 +15,10 @@
 		098C298D252E4503004E917F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098C2962252E4502004E917F /* ContentView.swift */; };
 		098C298E252E4503004E917F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098C2963252E4502004E917F /* Assets.xcassets */; };
 		098C298F252E4503004E917F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098C2963252E4502004E917F /* Assets.xcassets */; };
+		098C299F252E46DC004E917F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098C299E252E46DC004E917F /* CardView.swift */; };
+		098C29A0252E46DC004E917F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098C299E252E46DC004E917F /* CardView.swift */; };
+		098C29A2252E4A58004E917F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098C29A1252E4A57004E917F /* ButtonView.swift */; };
+		098C29A3252E4A58004E917F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098C29A1252E4A57004E917F /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		098C2983252E4503004E917F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		098C2987252E4503004E917F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		098C2989252E4503004E917F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		098C299E252E46DC004E917F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		098C29A1252E4A57004E917F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				098C2961252E4502004E917F /* Dribbble_WalletAppApp.swift */,
 				098C2962252E4502004E917F /* ContentView.swift */,
+				098C29A1252E4A57004E917F /* ButtonView.swift */,
+				098C299E252E46DC004E917F /* CardView.swift */,
 				098C2963252E4502004E917F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				098C298C252E4503004E917F /* ContentView.swift in Sources */,
+				098C299F252E46DC004E917F /* CardView.swift in Sources */,
+				098C29A2252E4A58004E917F /* ButtonView.swift in Sources */,
 				098C298A252E4503004E917F /* Dribbble_WalletAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				098C298D252E4503004E917F /* ContentView.swift in Sources */,
+				098C29A0252E46DC004E917F /* CardView.swift in Sources */,
+				098C29A3252E4A58004E917F /* ButtonView.swift in Sources */,
 				098C298B252E4503004E917F /* Dribbble_WalletAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
